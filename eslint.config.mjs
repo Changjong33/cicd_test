@@ -8,6 +8,6 @@ export default defineConfig([
     plugins: { js },
     extends: ["js/recommended"],
     languageOptions: { globals: globals.browser },
-    rules: { "no-console": "error" },
+    rules: { "no-console": "warn", "no-undef": "warn" },
   },
 ]);

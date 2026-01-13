@@ -16,3 +16,15 @@ jobs:
 
       - name: "egg tart"
         run: echo "에그 타르트 똥방구"
+
+  gelato:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "apple gelato"
+        run: echo "사과맛 젤라또"
+
+      - name: "banana gelato"
+        run: echo "바나나맛 젤라또"
+
+      - name: "melon gelato"
+        run: echo "멜론맛 젤라또"
